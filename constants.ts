@@ -11,9 +11,9 @@ export const NAV_LINKS: NavLink[] = [
 export const PROJECTS_DATA: Project[] = [
   {
     id: 'project1',
-    title: 'AI Powered Code Reviewer',
-    description: 'Aplikasi kalkulator sederhana yang dibuat menggunakan React dan TypeScript.',
-    longDescription: 'An innovative tool that leverages advanced AI algorithms to perform comprehensive code reviews, identify potential bugs, and suggest improvements for better code quality and maintainability.',
+    title: 'Simple Calculator',
+    description: 'A simple calculator app built using React and TypeScript.',
+    longDescription: 'This is a simple calculator application I built using React and TypeScript. It performs basic math operations and demonstrates my ability to create interactive web interfaces and write clean, functional code.',
     imageUrl: calculator,
     githubLink: 'https://github.com/fajarkurnia0388/fajar-kurnia-calculator',
     liveLink: '#',
