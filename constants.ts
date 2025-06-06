@@ -1,5 +1,6 @@
 import { Project, NavLink } from './types';
-import calculator from './calculator.png'
+import calculator from './calculator.png';
+import kindgen from './kindgen.png';
 
 export const NAV_LINKS: NavLink[] = [
   { id: 'hero', label: 'Home' },
@@ -22,12 +23,12 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 'project2',
-    title: 'Decentralized Social Platform',
-    description: 'A next-gen social network on the blockchain.',
-    longDescription: 'Experience the future of social media with a decentralized platform that puts users in control of their data and content, built on cutting-edge blockchain technology for enhanced privacy and security.',
-    imageUrl: 'https://picsum.photos/seed/project2/600/400',
-    githubLink: 'https://github.com/fajarkurnia0388',
-    tags: ['Blockchain', 'Solidity', 'Next.js', 'Web3'],
+    title: 'Random Acts of Kindness Generator',
+    description: 'Inspire kindness daily with simple, random acts of good.',
+    longDescription: 'Unlock a world of positivity with the "Random Acts of Kindness Generator"! This app provides daily, randomly generated ideas for small acts of kindness across various categories (for strangers, friends, yourself, or the environment). Track your progress, share your good deeds to inspire others, and enjoy a user-friendly interface with both light and dark themes. Start spreading kindness and make a difference, one random act at a time.',
+    imageUrl: kindgen,
+    githubLink: 'https://github.com/fajarkurnia0388/kindness-ripple-generator',
+    tags: ['Kindness', 'Generator', 'TypeScript', 'Other'],
     aosAnimation: 'fade-up',
   },
   {
