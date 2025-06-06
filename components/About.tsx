@@ -1,6 +1,6 @@
-
 import React from 'react';
 import Section from './Section';
+import photo from '../photo.jpeg';
 
 interface AboutProps {
   id: string;
