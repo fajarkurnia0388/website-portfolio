@@ -1,5 +1,6 @@
 import React from 'react';
 import Section from './Section';
+import profilePhoto from './photo.jpeg';
 
 interface AboutProps {
   id: string;
@@ -15,7 +16,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div data-aos="fade-right" data-aos-delay="200">
           <img 
-            src="photo.jpeg" 
+            src={profilePhoto} 
             alt="Profile" 
             className="rounded-lg shadow-2xl mx-auto md:mx-0 w-full max-w-md object-cover aspect-square border-4 border-sky-500/50"
           />
