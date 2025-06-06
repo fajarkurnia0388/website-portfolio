@@ -31,7 +31,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
             When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or hiking in nature.
           </p>
            <div className="mt-8 flex justify-center md:justify-start space-x-4">
-            <a href="https_//github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-sky-300 transition-colors duration-300 text-sm font-medium py-2 px-4 border border-sky-400 rounded-md hover:bg-sky-400 hover:text-gray-900">
+            <a href="https://github.com/fajarkurnia0388" target="_blank" rel="noopener noreferrer" className="text-sky-400 hover:text-sky-300 transition-colors duration-300 text-sm font-medium py-2 px-4 border border-sky-400 rounded-md hover:bg-sky-400 hover:text-gray-900">
               View GitHub
             </a>
             <a href="#contact" className="text-gray-900 bg-sky-400 hover:bg-sky-500 transition-colors duration-300 text-sm font-medium py-2 px-4 rounded-md">
