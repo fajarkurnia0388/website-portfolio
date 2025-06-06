@@ -42,6 +42,16 @@ export const PROJECTS_DATA: Project[] = [
     aosAnimation: 'fade-up',
   },
   {
+    id: 'project3.1',
+    title: 'VR Interactive Museum Tour',
+    description: 'Explore world museums from your home.',
+    longDescription: 'An immersive virtual reality experience that allows users to explore renowned museums and historical sites from around the globe. Features high-fidelity 3D models and interactive exhibits.',
+    imageUrl: 'https://picsum.photos/seed/project3/600/400',
+    githubLink: 'https://github.com/fajarkurnia0388',
+    tags: ['Unity', 'C#', 'VR', '3D Modeling'],
+    aosAnimation: 'fade-up',
+  },
+  {
     id: 'project4',
     title: 'Eco-Friendly Route Planner',
     description: 'Find the most sustainable travel routes.',
