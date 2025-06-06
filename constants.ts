@@ -1,5 +1,5 @@
-
 import { Project, NavLink } from './types';
+import calculator from './calculator.png'
 
 export const NAV_LINKS: NavLink[] = [
   { id: 'hero', label: 'Home' },
@@ -14,7 +14,7 @@ export const PROJECTS_DATA: Project[] = [
     title: 'AI Powered Code Reviewer',
     description: 'Aplikasi kalkulator sederhana yang dibuat menggunakan React dan TypeScript.',
     longDescription: 'An innovative tool that leverages advanced AI algorithms to perform comprehensive code reviews, identify potential bugs, and suggest improvements for better code quality and maintainability.',
-    imageUrl: 'https://picsum.photos/seed/project1/600/400',
+    imageUrl: {calculator},
     githubLink: 'https://github.com/fajarkurnia0388/fajar-kurnia-calculator',
     liveLink: '#',
     tags: ['React', 'Vite', 'TypeScript', 'CSS', 'Other'],
