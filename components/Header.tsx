@@ -27,7 +27,7 @@ const Header: React.FC<HeaderProps> = ({ navLinks }) => {
         <div className="flex items-center justify-between h-20">
           {/* Logo/Name */}
           <a href="#hero" className="text-2xl font-bold text-sky-400 hover:text-sky-300 transition-colors duration-300" data-aos="fade-down">
-            MyPortfolio
+            Fajar Kurnia
           </a>
 
           {/* Desktop Navigation */}
