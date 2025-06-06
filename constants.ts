@@ -12,12 +12,12 @@ export const PROJECTS_DATA: Project[] = [
   {
     id: 'project1',
     title: 'AI Powered Code Reviewer',
-    description: 'Automated code analysis using machine learning.',
+    description: 'Aplikasi kalkulator sederhana yang dibuat menggunakan React dan TypeScript.',
     longDescription: 'An innovative tool that leverages advanced AI algorithms to perform comprehensive code reviews, identify potential bugs, and suggest improvements for better code quality and maintainability.',
     imageUrl: 'https://picsum.photos/seed/project1/600/400',
-    githubLink: 'https://github.com/fajarkurnia0388',
+    githubLink: 'https://github.com/fajarkurnia0388/fajar-kurnia-calculator',
     liveLink: '#',
-    tags: ['React', 'TypeScript', 'Node.js', 'AI/ML', 'Python'],
+    tags: ['React', 'Vite', 'TypeScript', 'CSS', 'Other'],
     aosAnimation: 'fade-up',
   },
   {
