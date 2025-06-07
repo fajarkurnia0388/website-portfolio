@@ -1,6 +1,7 @@
 import { Project, NavLink } from './types';
-import calculator from './calculator.png';
-import kindgen from './kindgen.png';
+import calculator from './1.png';
+import kindgen from './2.png';
+import magiclab from './3.png';
 
 export const NAV_LINKS: NavLink[] = [
   { id: 'hero', label: 'Home' },
@@ -33,11 +34,11 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 'project3',
-    title: 'VR Interactive Museum Tour',
-    description: 'Explore world museums from your home.',
-    longDescription: 'An immersive virtual reality experience that allows users to explore renowned museums and historical sites from around the globe. Features high-fidelity 3D models and interactive exhibits.',
-    imageUrl: 'https://picsum.photos/seed/project3/600/400',
-    githubLink: 'https://github.com/fajarkurnia0388',
+    title: 'Magic Compound: The Molecular Journey',
+    description: 'Unravel the secrets of chemistry by building molecules.',
+    longDescription: 'An engaging and intuitive educational game where players actively combine elements to form common chemical compounds. Features interactive element cards, real-time 3D molecular visualization, and dynamic challenges designed to make chemistry accessible and fun for all ages.',
+    imageUrl: magiclab,
+    githubLink: 'https://github.com/fajarkurnia0388/magic-molecule-quest',
     tags: ['Unity', 'C#', 'VR', '3D Modeling'],
     aosAnimation: 'fade-up',
   },
