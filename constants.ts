@@ -3,6 +3,7 @@ import calculator from './1.png';
 import kindgen from './2.png';
 import magiclab from './3.png';
 import pattinstinc from './4.png';
+import logicforge from './5.png';
 
 export const NAV_LINKS: NavLink[] = [
   { id: 'hero', label: 'Home' },
@@ -55,13 +56,13 @@ export const PROJECTS_DATA: Project[] = [
   },
   {
     id: 'project5',
-    title: 'Eco-Friendly Route Planner',
-    description: 'Find the most sustainable travel routes.',
-    longDescription: 'A smart application designed to help users find the most environmentally friendly routes for their journeys, considering factors like carbon emissions, public transport availability, and bike-friendliness.',
-    imageUrl: 'https://picsum.photos/seed/project4/600/400',
-    githubLink: 'https://github.com/fajarkurnia0388',
+    title: 'Logic Forge: Program Your Mind',
+    description: 'Master coding logic with visual puzzles in a futuristic lab.',
+    longDescription: 'Enter "Logic Forge," a revolutionary educational game designed to build foundational programming logic without the clutter of syntax. Navigate a sleek, futuristic interface adorned with glowing holographic circuit patterns, where you drag-and-drop visual blocks to solve captivating puzzles. Program robots, automate systems, and watch your logic execute in real-time through stunning light pulses flowing across virtual circuits. This app provides clear, immediate feedback, fostering intuitive understanding and sharpening computational thinking for aspiring coders of all ages.',
+    imageUrl: logicforge,
+    githubLink: 'https://github.com/fajarkurnia0388/logic-forge-circuits-play',
     liveLink: '#',
-    tags: ['Flutter', 'Dart', 'Google Maps API', 'Sustainability'],
+    tags: ['Puzzle', 'Interactive', 'Logic', 'Coding'],
     aosAnimation: 'fade-up',
   }
 ];
