@@ -2,6 +2,7 @@ import { Project, NavLink } from './types';
 import calculator from './1.png';
 import kindgen from './2.png';
 import magiclab from './3.png';
+import pattinstinc from './4.png';
 
 export const NAV_LINKS: NavLink[] = [
   { id: 'hero', label: 'Home' },
@@ -43,17 +44,17 @@ export const PROJECTS_DATA: Project[] = [
     aosAnimation: 'fade-up',
   },
   {
-    id: 'project3.1',
-    title: 'VR Interactive Museum Tour',
-    description: 'Explore world museums from your home.',
-    longDescription: 'An immersive virtual reality experience that allows users to explore renowned museums and historical sites from around the globe. Features high-fidelity 3D models and interactive exhibits.',
-    imageUrl: 'https://picsum.photos/seed/project3/600/400',
-    githubLink: 'https://github.com/fajarkurnia0388',
-    tags: ['Unity', 'C#', 'VR', '3D Modeling'],
+    id: 'project4',
+    title: 'Pattern Instinct: Cognitive Velocity',
+    description: 'Sharpen your mind. Predict the future. Master dynamic patterns.',
+    longDescription: 'Immerse yourself in "Pattern Instinct," a captivating and highly addictive mobile game designed to push the boundaries of cognitive agility and intuitive pattern recognition. With a sleek, futuristic UI, players are challenged to instinctively predict the next element in rapid-fire visual sequences—be it luminous colors, evolving geometric forms, or pulsating numerical progressions. This game cultivates sharp observation and the swift identification of underlying logical structures, providing an intensely thrilling and profoundly beneficial experience for honing predictive capabilities and mental agility in a truly engaging and stylish manner.',
+    imageUrl: pattinstinc,
+    githubLink: 'https://github.com/fajarkurnia0388/pattern-flow-swift',
+    tags: ['Logic', 'Instinct', 'Cognitive', 'Mind'],
     aosAnimation: 'fade-up',
   },
   {
-    id: 'project4',
+    id: 'project5',
     title: 'Eco-Friendly Route Planner',
     description: 'Find the most sustainable travel routes.',
     longDescription: 'A smart application designed to help users find the most environmentally friendly routes for their journeys, considering factors like carbon emissions, public transport availability, and bike-friendliness.',
