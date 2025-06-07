@@ -39,7 +39,7 @@ export const PROJECTS_DATA: Project[] = [
     longDescription: 'An engaging and intuitive educational game where players actively combine elements to form common chemical compounds. Features interactive element cards, real-time 3D molecular visualization, and dynamic challenges designed to make chemistry accessible and fun for all ages.',
     imageUrl: magiclab,
     githubLink: 'https://github.com/fajarkurnia0388/magic-molecule-quest',
-    tags: ['Unity', 'C#', 'VR', '3D Modeling'],
+    tags: ['Chemistry', 'Learning App', 'Puzzle Game', 'Educational Game'],
     aosAnimation: 'fade-up',
   },
   {
